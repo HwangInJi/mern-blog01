@@ -9,6 +9,7 @@
 
 - vite(https://ko.vitejs.dev/guide/)
 - tailwind(https://tailwindcss.com/docs/guides/vite)
+- mongoDB(https://www.mongodb.com/)
 
 ```bash
 npm create vite@latest
@@ -39,9 +40,11 @@ npm init -y
 npm i express
 npm i nodemon
 npm i mongoose
+npm i dotenv
 ```
 
 - package.json 셋팅해주기 + client의 .gitignore 밖으로 빼기
+- .gitignore파일에 .env 추가
 
 ## api
 
