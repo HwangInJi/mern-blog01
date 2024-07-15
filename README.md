@@ -10,6 +10,7 @@
 - vite(https://ko.vitejs.dev/guide/)
 - tailwind(https://tailwindcss.com/docs/guides/vite)
 - mongoDB(https://www.mongodb.com/)
+- insomnia(https://insomnia.rest/)
 
 ```bash
 npm create vite@latest
@@ -45,9 +46,3 @@ npm i dotenv
 
 - package.json 셋팅해주기 + client의 .gitignore 밖으로 빼기
 - .gitignore파일에 .env 추가
-
-## api
-
-```bash
-
-```

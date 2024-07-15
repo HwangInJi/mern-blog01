@@ -5,23 +5,23 @@ import { CiMenuKebab } from "react-icons/ci";
 export default function Header() {
   return (
     <>
-      <div className="w-3/5 flex justify-between items-center m-auto font-['Pretendard-Regular'] mt-8 mb-8">
-        <Link href={"/"} className="text-xl DM_font">
+      <div className="w-3/5 flex justify-between items-center m-auto font-pretendard mt-8 mb-8">
+        <Link to="/" className="text-3xl font-cafe24lovingu">
           INJI
         </Link>
 
         <div className="text-xl font-[900]">
           <ul className="flex gap-8">
             <li>
-              <Link href={"/"}>Home</Link>
+              <Link to="/">Home</Link>
             </li>
 
             <li>
-              <Link href={"/sign-in"}>SignIn</Link>
+              <Link to="/signin">SignIn</Link>
             </li>
 
             <li>
-              <Link href={"/sign-up"}>SignUp</Link>
+              <Link to="/signup">SignUp</Link>
             </li>
           </ul>
         </div>
