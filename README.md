@@ -19,8 +19,13 @@ npm i react-router-dom
 npm i react-icons
 ```
 
-## git과 연동
+## git과 연동(상위 폴더에)
 
 ```bash
 git init
+git add .
+git commit -m "first"
+git remote add origin https://github.com/HwangInJi/mern-blog01.git
+git branch -M main
+git push -u origin main
 ```
