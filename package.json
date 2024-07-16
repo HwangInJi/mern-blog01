@@ -1,7 +1,7 @@
 {
   "name": "mern-blog",
   "version": "1.0.0",
-  "description": "저는 최근 프로젝트에서 MERN 스택을 활용하여 웹 애플리케이션을 개발했습니다. 프로젝트의 각 구성 요소는 다음과 같습니다.<br/>",
+  "description": "저는 최근 프로젝트에서 MERN 스택을 활용하여 블로그를 만들었습니다.",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,9 +12,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.5.1",
     "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^3.7.0"
   }
 }

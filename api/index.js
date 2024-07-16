@@ -24,5 +24,17 @@ app.listen(3000, () => {
   console.log("3000에서 서버가 정상 작동중입니다.");
 });
 
+// API 경로 설정
 app.use("/api/user", userRoutes);
 app.use("/api/auth", authRoutes);
+
+// 에러 설정
+app.use((err, req, res, next) => {
+  const statusCode = err.statusCode || 500;
+  const message = err.message || "서버 에러 발생! 관리자에게 문의하세요.";
+  res.status(statusCode).json({
+    success: false,
+    statusCode,
+    message,
+  });
+});

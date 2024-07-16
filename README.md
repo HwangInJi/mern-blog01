@@ -11,6 +11,7 @@
 - tailwind(https://tailwindcss.com/docs/guides/vite)
 - mongoDB(https://www.mongodb.com/)
 - insomnia(https://insomnia.rest/)
+- redux-toolkit(https://redux-toolkit.js.org/)
 
 ```bash
 npm create vite@latest
@@ -26,9 +27,11 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 npm i react-router-dom
 npm i react-icons
+npm install @reduxjs/toolkit
+npm install react-redux
 ```
 
-## git과 연동(상위 폴더에)
+## git과 연동(상위 폴더에 설치할 것)
 
 ```bash
 git init
@@ -42,6 +45,9 @@ npm i express
 npm i nodemon
 npm i mongoose
 npm i dotenv
+npm i bcryptjs
+npm install @vitejs/plugin-react-swc --save-dev
+npm i jsonwebtoken
 ```
 
 - package.json 셋팅해주기 + client의 .gitignore 밖으로 빼기
