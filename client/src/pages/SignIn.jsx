@@ -12,7 +12,7 @@ export default function SignIn() {
   // const [errorMessage, setErrorMessage] = useState(null);
   // const [loading, setLoading] = useState(false);
   const { loading, error: errorMessage } = useSelector((state) => state.user);
-  const dispatch = useDispatch;
+  const dispatch = useDispatch();
   const navigate = useNavigate();
 
   const handleChange = (e) => {
