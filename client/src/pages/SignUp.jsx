@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import OAuth from "../components/OAuth";
 
 export default function SignUp() {
   const [formData, setFormData] = useState();
@@ -133,13 +134,16 @@ export default function SignUp() {
                   className="flex justify-center w-full px-4 py-3 text-sm text-white transition duration-500 transform border border-transparent rounded-md font-pretendard bg-maingreen focus:outline-none focus:ring-2 focus:ring-offset-2"
                 >
                   {loading ? (
-                    <span className="p-2">Loading...</span>
+                    <span className="p-2">
+                      <Link to="/signup">회원가입</Link>
+                    </span>
                   ) : (
                     "가입완료"
                   )}
                 </button>
               </div>
             </form>
+            <OAuth />
 
             <div className="mt-4">
               <span className="font-pretendard">계정이 있나요?</span>

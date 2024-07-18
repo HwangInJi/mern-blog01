@@ -29,6 +29,8 @@ npm i react-router-dom
 npm i react-icons
 npm install @reduxjs/toolkit
 npm install react-redux
+npm install redux-persist
+npm i firebase
 ```
 
 ## git과 연동(상위 폴더에 설치할 것)

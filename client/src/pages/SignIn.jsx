@@ -6,6 +6,7 @@ import {
   signInSuccess,
   signInFailure,
 } from "../redux/user/userSlice";
+import OAuth from "../components/OAuth";
 
 export default function SignIn() {
   const [formData, setFormData] = useState();
@@ -120,6 +121,7 @@ export default function SignIn() {
                 </button>
               </div>
             </form>
+            <OAuth />
 
             <div className="mt-4">
               <span className="font-pretendard">계정이 없나요?</span>
